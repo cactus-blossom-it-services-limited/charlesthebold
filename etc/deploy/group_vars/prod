@@ -1,0 +1,9 @@
+---
+  deploy_to: /var/www/html/symfony-app
+  symfony_php_path: php
+
+  #..
+  sf_env: prod
+  sf_base_url: /
+  sf_host: andrewfarquharsonproject.org.uk
+  sf_scheme: http

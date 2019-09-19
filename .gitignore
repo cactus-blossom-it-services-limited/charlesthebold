@@ -3,7 +3,16 @@
 /.env.local
 /.env.local.php
 /.env.*.local
+/.env
+
 /public/bundles/
 /var/
 /vendor/
+# Added by A. Farquharson
+/web/bundles/
+/web/uploads/
+
+/phpunit.xml
+
+/composer.phar
 ###< symfony/framework-bundle ###

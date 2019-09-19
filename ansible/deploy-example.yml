@@ -1,0 +1,12 @@
+---
+- name: Deploys using Ansistrano
+  hosts: all
+  remote_user: andrew
+
+  vars: 
+    ansistrano_deploy_from: /home/andrew/My_symfony/my_project/
+    ansistrano_deploy_to: /var/www/html/symfony-app
+    ansistrano_keep_releases: 3
+
+  roles:
+    - ansistrano.deploy
